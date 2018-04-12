@@ -4,16 +4,14 @@
 		<title>Главная</title>
 		<meta charset="<?php bloginfo( 'charset' ) ?>">
 		<meta name="viewport" content="width=device-width">
-    <!--<link href="css/styles.css" rel="stylesheet">-->
-    <!--<script type ="text/javascript" src="js/script.js"></script>-->
-	  
+   
 	  <?php wp_head(); ?>
 	</head>
 	<body>
 		<div class="wrapper">
 			<header>
 				<div class="header-top clearfix">
-					<a class="logo" href="<?php home_url(); ?>"><?php bloginfo( 'name' ); ?></a>
+					<a class="logo" href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a>
 					<nav>
 						<div class="menu-button">MENU</div>
             

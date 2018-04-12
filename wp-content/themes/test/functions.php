@@ -25,3 +25,6 @@ function register_widgets() {
 		'after_widget' => '</div>'
 	]);
 }
+
+add_theme_support( 'post-thumbnails');
+

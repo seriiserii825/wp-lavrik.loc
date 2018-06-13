@@ -348,3 +348,21 @@ footer>span{
         float: none;
     }
 }
+
+body * {
+    color: #444;
+}
+
+h2 {
+    font-weight: bold;  
+    text-transform: uppercase;  
+}
+
+.flats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.archive-item {
+    width: 300px;
+}

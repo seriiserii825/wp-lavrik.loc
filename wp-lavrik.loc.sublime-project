@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+            "follow_symlink": true,
+			"path": "."
+		}
+	],
+     "settings": {
+        "xdebug": {
+             "url": "http://wp-lavrik.loc/",
+        }
+    }
+}
